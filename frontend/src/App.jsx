@@ -6,7 +6,12 @@ import Dogs from "@pages/Dogs";
 import "./App.css";
 
 function App() {
-  return <div className="App">this is myapp</div>;
+  return (
+    <div className="App">
+      this is my app
+      {/* insérer vos routes ici */}
+    </div>
+  );
 }
 
 export default App;
